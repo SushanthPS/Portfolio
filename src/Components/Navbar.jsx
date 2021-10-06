@@ -5,11 +5,17 @@ import { Link } from "react-router-dom";
 const Nav = styled.div`
     width: 100%;
     height: 60px;
-    box-shadow: 0 7px 20px 0 rgb(0 0 0 / 20%), 0 4px 10px 0 rgb(0 0 0 / 20%);
+
     position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+
     background-color: #222831;
     color: #eeeeee;
-    font-size: 20px;
+    font-size: 18px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+        rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 
     @media only screen and (max-width: 767px) {
         font-size: 12px;
@@ -19,6 +25,10 @@ const Nav = styled.div`
     a {
         color: inherit;
         text-decoration: inherit;
+    }
+
+    a:hover {
+        color: #00adb5;
     }
 
     .cont {
@@ -85,9 +95,6 @@ export default function Navbar() {
                 </div>
                 <div onClick={() => setSelected("Projects")}>
                     <Link to="/projects">Projects</Link>
-                </div>
-                <div onClick={() => setSelected("Contact Me")}>
-                    <Link to="/contact-me">Contact Me</Link>
                 </div>
                 <div>
                     <a

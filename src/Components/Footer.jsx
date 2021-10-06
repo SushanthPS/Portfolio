@@ -1,5 +1,7 @@
 import styled from "styled-components";
-import { BsLinkedin, BsGithub, BsInstagram } from "react-icons/bs";
+import { BsLinkedin, BsGithub, BsTelephoneFill } from "react-icons/bs";
+import { MdEmail } from "react-icons/md";
+import { SiHackerrank } from "react-icons/si";
 
 const Foot = styled.div`
     position: fixed;
@@ -42,11 +44,26 @@ const Foot = styled.div`
     }
 
     .github:hover {
-        color: yellow;
+        color: #161b22;
     }
 
-    .instagram:hover {
-        color: #d6249f;
+    .hackerrank:hover {
+        color: #2fc866;
+    }
+
+    .email > svg {
+        font-size: 35px;
+        @media only screen and (max-width: 767px) {
+            font-size: 25px;
+        }
+    }
+
+    .email:hover {
+        color: #cd3c30;
+    }
+
+    .phone:hover {
+        color: cyan;
     }
 `;
 
@@ -59,6 +76,7 @@ export default function Footer() {
                     href="https://www.linkedin.com/in/sushanthps/"
                     target="_blank"
                     rel="noreferrer"
+                    title="Linkedin"
                 >
                     <BsLinkedin />
                 </a>
@@ -67,16 +85,30 @@ export default function Footer() {
                     href="https://github.com/SushanthPS"
                     target="_blank"
                     rel="noreferrer"
+                    title="Github"
                 >
                     <BsGithub />
                 </a>
                 <a
-                    className="instagram"
-                    href="https://www.instagram.com/shadowps_/"
+                    className="hackerrank"
+                    href="https://www.hackerrank.com/Sushanthps"
                     target="_blank"
                     rel="noreferrer"
+                    title="HackerRank"
                 >
-                    <BsInstagram />
+                    <SiHackerrank />
+                </a>
+                <a
+                    className="email"
+                    href="mailto: getsushanthps@gmail.com"
+                    target="_blank"
+                    rel="noreferrer"
+                    title="Email"
+                >
+                    <MdEmail />
+                </a>
+                <a className="phone" href="tel:+919066603303" title="Phone">
+                    <BsTelephoneFill />
                 </a>
             </div>
         </Foot>

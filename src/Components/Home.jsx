@@ -6,6 +6,7 @@ const Container = styled.div`
     flex-direction: column;
     color: white;
     justify-content: center;
+    margin-top: -20px;
 
     div {
         font-size: 40px;
@@ -23,7 +24,7 @@ const Container = styled.div`
     img {
         width: 200px;
         margin-bottom: 10px;
-        border: 2px solid white;
+        border: 3px solid white;
         border-radius: 50%;
 
         @media only screen and (max-width: 767px) {
@@ -37,8 +38,8 @@ export default function Home() {
         <Container className="body">
             <img src="/photo.png" alt="" />
             <div>
-                Hey, I am <span> Sushanth PS</span>. <br /> I am a Full-Stack
-                Web Developer from Bangalore, India.
+                Hey <span>👋</span> I'm <span> Sushanth PS</span>. <br /> I'm a
+                Full-Stack Web Developer.
             </div>
         </Container>
     );
