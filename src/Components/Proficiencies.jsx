@@ -3,7 +3,7 @@ import styled from "styled-components";
 const Pro = styled.div`
     padding: 10px 0 70px;
     background-color: #fff;
-    margin-bottom: 70px;
+    margin-bottom: 40px;
 
     .stacks {
         margin: auto;

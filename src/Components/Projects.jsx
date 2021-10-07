@@ -3,6 +3,8 @@ import ProjectItem from "./ProjectItem";
 
 const Proj = styled.div`
     margin-top: 100px;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
 
     .items {
         margin: auto;

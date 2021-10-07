@@ -13,6 +13,13 @@ const Container = styled.div`
         margin-block-end: 0.67em;
     }
 
+    p {
+        margin: auto;
+        width: 90%;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
     .top-section > img {
         width: 150px;
     }
