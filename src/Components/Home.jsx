@@ -38,8 +38,8 @@ export default function Home() {
         <Container className="body">
             <img src="/photo.png" alt="" />
             <div>
-                Hey <span>👋</span> I'm <span> Sushanth PS</span>. <br /> I'm a
-                Full-Stack Web Developer.
+                Hey <span>👋</span> I'm <span> Sushanth PS</span> <br /> I'm a
+                Full-Stack Web Developer
             </div>
         </Container>
     );
