@@ -2,8 +2,7 @@ import styled from "styled-components";
 import ProjectItem from "./ProjectItem";
 
 const Proj = styled.div`
-    margin-top: 100px;
-    margin-bottom: 40px;
+    margin-top: 80px;
     padding-bottom: 40px;
 
     .items {

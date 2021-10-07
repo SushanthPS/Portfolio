@@ -3,7 +3,7 @@ import TechStack from "./TechStack";
 import Proficiencies from "./Proficiencies";
 
 const Container = styled.div`
-    margin-top: 100px;
+    margin-top: 80px;
 
     h1 {
         margin-bottom: 5px;
@@ -13,11 +13,8 @@ const Container = styled.div`
         margin-block-end: 0.67em;
     }
 
-    p {
-        margin: auto;
-        width: 90%;
-        margin-top: 20px;
-        margin-bottom: 10px;
+    .top-section {
+        padding: 15px;
     }
 
     .top-section > img {
