@@ -17,18 +17,26 @@ const Container = styled.div`
         }
     }
 
-    span {
+    .highlight {
         color: greenyellow;
     }
 
     img {
-        width: 200px;
+        width: 180px;
         margin-bottom: 10px;
         border: 3px solid white;
         border-radius: 50%;
 
         @media only screen and (max-width: 767px) {
             width: 80px;
+        }
+    }
+
+    .small-text {
+        font-size: 30px;
+
+        @media only screen and (max-width: 767px) {
+            font-size: 17px;
         }
     }
 `;
@@ -38,8 +46,9 @@ export default function Home() {
         <Container className="body">
             <img src="/photo.png" alt="" />
             <div>
-                Hey <span>👋</span> I'm <span> Sushanth PS</span> <br /> I'm a
-                Full-Stack Web Developer
+                Hey <span>👋</span> I'm{" "}
+                <span className="highlight"> Sushanth PS</span> <br />
+                <span className="small-text"> A Full-Stack Web Developer</span>
             </div>
         </Container>
     );

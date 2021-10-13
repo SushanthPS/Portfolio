@@ -41,13 +41,11 @@ export default function About() {
                 <div className="top-section">
                     <img src="photo.png" alt="" />
                     <p>
-                        A Passionate aspiring Full Stack Developer skilled in
-                        MERN stack and loves solving problems in the most
-                        efficient way. <br /> A Polyglot who is adept at coding
-                        in Javascript, Python 3 and Java. <br />
-                        Looking forward to joining a company where I shall be
-                        able to contribute towards individual and company
-                        growth.
+                        A Passionate aspiring Full-Stack Web Developer skilled
+                        in MERN stack who loves solving problems. <br /> A
+                        Polyglot who is adept at coding in Javascript, Java and
+                        Python 3. <br />A dedicated team player enthusiastic to
+                        be part of a product-based company.
                     </p>
                 </div>
             </div>
