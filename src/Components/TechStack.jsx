@@ -21,8 +21,7 @@ const Tech = styled.div`
     }
 
     .logo {
-        width: 100%;
-        height: 100%;
+        height: 90%;
     }
 
     .stack-item > h5 {
@@ -32,54 +31,29 @@ const Tech = styled.div`
 `;
 
 export default function TechStack() {
+    const data = [
+        { src: "/html.png", name: "HTML 5" },
+        { src: "/css.png", name: "CSS 3" },
+        { src: "/javascript.png", name: "JAVASCRIPT" },
+        { src: "/nodejs.png", name: "NODE JS" },
+        { src: "/mongodb.png", name: "MONGO DB" },
+        { src: "/mysql.svg", name: "MYSQL" },
+        { src: "/express.png", name: "EXPRESS" },
+        { src: "/reactjs.png", name: "REACT JS" },
+        { src: "/redux.png", name: "REDUX" },
+        { src: "/java.png", name: "JAVA" },
+        { src: "/python.png", name: "PYTHON 3" },
+    ];
     return (
         <Tech>
             <h1>Tech Stack</h1>
             <div className="stacks">
-                <div className="stack-item">
-                    <img className="logo" src="/html.png" alt="" />
-                    <h5>HTML 5</h5>
-                </div>
-                <div className="stack-item">
-                    <img className="logo" src="/css.png" alt="" />
-                    <h5>CSS 3</h5>
-                </div>
-                <div className="stack-item">
-                    <img className="logo" src="/javascript.png" alt="" />
-                    <h5>JAVASCRIPT</h5>
-                </div>
-                <div className="stack-item">
-                    <img className="logo" src="/nodejs.png" alt="" />
-                    <h5>NODE JS</h5>
-                </div>
-                <div className="stack-item">
-                    <img className="logo" src="/mongodb.png" alt="" />
-                    <h5>MONGO DB</h5>
-                </div>
-                <div className="stack-item">
-                    <img className="logo" src="/mysql.svg" alt="" />
-                    <h5>MySQL</h5>
-                </div>
-                <div className="stack-item">
-                    <img className="logo" src="/express.png" alt="" />
-                    <h5>EXPRESS</h5>
-                </div>
-                <div className="stack-item">
-                    <img className="logo" src="/reactjs.png" alt="" />
-                    <h5>REACT JS</h5>
-                </div>
-                <div className="stack-item">
-                    <img className="logo" src="/redux.png" alt="" />
-                    <h5>REDUX</h5>
-                </div>
-                <div className="stack-item">
-                    <img className="logo" src="/java.png" alt="" />
-                    <h5>JAVA</h5>
-                </div>
-                <div className="stack-item">
-                    <img className="logo" src="/python.png" alt="" />
-                    <h5>PYTHON 3</h5>
-                </div>
+                {data.map((el, i) => (
+                    <div key={i} className="stack-item">
+                        <img src={el.src} alt={el.name} className="logo" />
+                        <h5>{el.name}</h5>
+                    </div>
+                ))}
             </div>
         </Tech>
     );
