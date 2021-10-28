@@ -39,7 +39,7 @@ export default function About() {
             <div className="about">
                 <h1>About</h1>
                 <div className="top-section">
-                    <img src="photo.png" alt="" />
+                    <img src="photo.webp" alt="" />
                     <p>
                         A Passionate aspiring Full-Stack Web Developer skilled
                         in MERN stack who loves solving problems. <br /> A

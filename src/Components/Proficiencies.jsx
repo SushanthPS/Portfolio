@@ -37,15 +37,15 @@ export default function Proficiencies() {
             <h1>Proficiencies</h1>
             <div className="stacks">
                 <div className="stack-item">
-                    <img className="logo" src="/ds.png" alt="" />
+                    <img className="logo" src="/ds.webp" alt="" />
                     <h5>Data Structures & Algorithms</h5>
                 </div>
                 <div className="stack-item">
-                    <img className="logo" src="/frontend.png" alt="" />
+                    <img className="logo" src="/frontend.webp" alt="" />
                     <h5>Frontend</h5>
                 </div>
                 <div className="stack-item">
-                    <img className="logo" src="/backend.png" alt="" />
+                    <img className="logo" src="/backend.webp" alt="" />
                     <h5>Backend</h5>
                 </div>
             </div>

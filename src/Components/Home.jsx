@@ -44,7 +44,7 @@ const Container = styled.div`
 export default function Home() {
     return (
         <Container className="body">
-            <img src="/photo.png" alt="" />
+            <img src="/photo.webp" alt="" />
             <div>
                 Hey <span>👋</span> I'm{" "}
                 <span className="highlight"> Sushanth PS</span> <br />

@@ -32,17 +32,17 @@ const Tech = styled.div`
 
 export default function TechStack() {
     const data = [
-        { src: "/html.png", name: "HTML 5" },
-        { src: "/css.png", name: "CSS 3" },
-        { src: "/javascript.png", name: "JAVASCRIPT" },
-        { src: "/nodejs.png", name: "NODE JS" },
-        { src: "/mongodb.png", name: "MONGO DB" },
-        { src: "/mysql.svg", name: "MYSQL" },
-        { src: "/express.png", name: "EXPRESS" },
-        { src: "/reactjs.png", name: "REACT JS" },
-        { src: "/redux.png", name: "REDUX" },
-        { src: "/java.png", name: "JAVA" },
-        { src: "/python.png", name: "PYTHON 3" },
+        { src: "/html.webp", name: "HTML 5" },
+        { src: "/css.webp", name: "CSS 3" },
+        { src: "/javascript.webp", name: "JAVASCRIPT" },
+        { src: "/nodejs.webp", name: "NODE JS" },
+        { src: "/mongodb.webp", name: "MONGO DB" },
+        { src: "/mysql.webp", name: "MYSQL" },
+        { src: "/express.webp", name: "EXPRESS" },
+        { src: "/reactjs.webp", name: "REACT JS" },
+        { src: "/redux.webp", name: "REDUX" },
+        { src: "/java.webp", name: "JAVA" },
+        { src: "/python.webp", name: "PYTHON 3" },
     ];
     return (
         <Tech>
