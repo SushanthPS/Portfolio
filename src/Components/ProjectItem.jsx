@@ -76,9 +76,9 @@ export default function ProjectItem({ el }) {
                     ))}
                 </div>
                 <div className="button-cont">
-                    <a href={el.demo} target="_blank" rel="noreferrer">
+                    {/* <a href={el.demo} target="_blank" rel="noreferrer">
                         <button className="button">Demo</button>
-                    </a>
+                    </a> */}
                     <a href={el.github} target="_blank" rel="noreferrer">
                         <button className="button">Github</button>
                     </a>
