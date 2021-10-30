@@ -35,7 +35,7 @@ export default function TechStack() {
         { src: "/html.webp", name: "HTML 5" },
         { src: "/css.webp", name: "CSS 3" },
         { src: "/javascript.webp", name: "JAVASCRIPT" },
-        { src: "/nodejs.webp", name: "NODE JS" },
+        { src: "/nodejs2.webp", name: "NODE JS" },
         { src: "/mongodb.webp", name: "MONGO DB" },
         { src: "/mysql.webp", name: "MYSQL" },
         { src: "/express.webp", name: "EXPRESS" },
